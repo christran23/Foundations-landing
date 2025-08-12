@@ -41,10 +41,11 @@ button {
 /* nav */
 
 .header {
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 20px 20px;
+    max-width: 1200px;
 }
 
 .logo {
@@ -59,11 +60,13 @@ button {
 /* hero */
 
 .hero {
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 20px;
     gap: 16px;
+    max-width: 1200px;
 }
 
 .hero-title {
@@ -87,13 +90,100 @@ button {
     border: none;
 }
 
-/*information*/
+/*information section*/
 
 .info-header{
     color: #1F2937;
     font-weight: 900;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 32px;
 }
 
 .secondary{
     color: #1F2937;
+    text-align: center;
+}
+
+.props {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding-bottom: 80px;
+}
+
+.props-image{
+    height: 140px;
+    width: 140px;
+    border-radius: 12px;
+    object-fit: cover;
+    border: 2px solid #3882F6;
+}
+
+.shiba, .corgi, .westie{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    width: 200px;
+}
+
+/*quote section*/
+
+.quote-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 80px;
+    background-color: #E5E7EB;
+}
+
+.quote-text{
+    color: #1f2937;
+    font-weight: light;
+    font-size: 36px;
+    font-style: italic;
+    max-width: 800px;
+    padding-bottom: 16px;
+}
+
+.person{
+    color: #1f2937;
+    font-weight: 900;
+    font-size: 28px;
+    text-align: right;
+}
+
+/*footer CTA*/
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 20px;
+}
+
+.footer-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    max-width: 1008px;
+    width: 100%;
+    padding: 64px 96px;
+    border-radius: 24px;
+    gap: 16px;
+}
+
+.footer-header{
+    color:#FFFFFF;
+    padding-bottom: 8px;
+}
+
+.footer-cta{
+    background: transparent;
+    color: white;
+    border: 2px solid white;
 }
