@@ -86,3 +86,14 @@ button {
     color: white;
     border: none;
 }
+
+/*information*/
+
+.info-header{
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.secondary{
+    color: #1F2937;
+}
